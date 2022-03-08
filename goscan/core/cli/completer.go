@@ -3,8 +3,8 @@ package cli
 import (
 	"fmt"
 	"github.com/c-bata/go-prompt"
-	"github.com/marco-lancini/goscan/core/model"
-	"github.com/marco-lancini/goscan/core/utils"
+	"github.com/thelouiselawrence/goscan/goscan/core/model"
+	"github.com/thelouiselawrence/goscan/goscan/core/utils"
 	"io/ioutil"
 	"path/filepath"
 	"strings"
