@@ -2,7 +2,7 @@ package enum
 
 import (
 	"fmt"
-	"github.comthelouiselawrence/goscan/goscan/core/utils"
+	"github.com/thelouiselawrence/goscan/goscan/core/utils"
 	"strings"
 )
 
