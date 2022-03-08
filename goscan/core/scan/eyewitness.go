@@ -2,8 +2,8 @@ package scan
 
 import (
 	"fmt"
-	"github.com/marco-lancini/goscan/core/utils"
-	"github.com/marco-lancini/goscan/core/model"
+	"github.com/thelouiselawrence/goscan/goscan/core/utils"
+	"github.com/thelouiselawrence/goscan/goscan/core/model"
 	"path/filepath"
 )
 
