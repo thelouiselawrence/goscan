@@ -1,3 +1,83 @@
+Forked from https://github.com/marco-lancini/goscan/
+
+Simple setup instructions for building from source files, without using Docker
+For those who are very new, first, make sure Git, GCC and dep are installed.
+
+#### Setup
+
+```bash
+$ sudo apt install git
+```
+GCC requires more complex commands
+```bash
+sudo apt-get install gcc
+```
+It may be necessary to run
+```bash
+$ sudo apt-get update
+```
+Install dep
+```bash
+$ sudo apt-get install go-dep
+```
+
+
+Go version used: Version 1.16.14
+
+```bash
+$ wget https://dl.google.com/go/go1.16.14.linux-amd64.tar.gz
+```
+Unzip
+```bash
+$ sudo tar -C /usr/local/ -xzf go1.16.14.linux-amd64.tar.gz
+```
+Edit profile
+```bash
+$  nano $HOME/.profile
+```
+Add line to end of file
+```bash
+export PATH=$PATH:/usr/local/go/bin
+```
+Run profile to set environment variables
+```bash
+$ source $HOME/.profile
+```
+Go files need to be in folder structure go/src
+```bash
+$ cd ~
+$ mkdir go
+$ cd go
+$ mkdir src
+$ cd src
+```
+#### Install Goscan
+
+Clone the Resposity
+```bash
+$ git clone https://github.com/thelouiselawrence/goscan.git
+```
+Navigate into the folder
+```bash
+$ cd goscan/goscan
+```
+Initialize the project
+```bash
+$ go mod init goscan
+$ go mod tidy
+```
+Build the project
+```bash
+$ go build ./
+```
+
+
+
+ORIGINAL README
+
+![image](https://user-images.githubusercontent.com/8563851/160590440-fff0e65a-41cf-46e0-a8ac-abb297d6cc2c.png)
+
+
 <p align="center"><img src="https://raw.githubusercontent.com/marco-lancini/goscan/master/.github/goscan_logo.png" width="40%"></p>
 
 Forked from https://github.com/marco-lancini/goscan/
