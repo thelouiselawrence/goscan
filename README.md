@@ -72,10 +72,7 @@ $ go build ./
 ```
 
 
-
 ORIGINAL README
-
-![image](https://user-images.githubusercontent.com/8563851/160590440-fff0e65a-41cf-46e0-a8ac-abb297d6cc2c.png)
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/marco-lancini/goscan/master/.github/goscan_logo.png" width="40%"></p>
