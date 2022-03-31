@@ -61,6 +61,14 @@ Navigate into the folder
 ```bash
 $ cd goscan/goscan
 ```
+
+Set up project
+```bash
+go get golang.org/x/lint/golint
+go get golang.org/x/tools/cmd/goimports
+dep ensure
+```
+
 Initialize the project
 ```bash
 $ go mod init goscan
