@@ -27,6 +27,11 @@ Install dep
 $ sudo apt-get install go-dep
 ```
 
+It may be necessary to run again
+```bash
+$ sudo apt-get update
+```
+
 Go version used: Version 1.16.14
 
 ```bash
