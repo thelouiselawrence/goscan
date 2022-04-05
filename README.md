@@ -1,7 +1,7 @@
 Forked from https://github.com/marco-lancini/goscan/
 
 Simple setup instructions for building from source files, without using Docker
-For those who are very new, first, make sure Git, GCC and dep are installed.
+For those who are very new, first, make sure Git, GCC, make and dep are installed.
 
 #### Setup
 
@@ -16,11 +16,16 @@ It may be necessary to run
 ```bash
 $ sudo apt-get update
 ```
+
+Install make
+```bash
+$ sudo apt install make
+```
+
 Install dep
 ```bash
 $ sudo apt-get install go-dep
 ```
-
 
 Go version used: Version 1.16.14
 
